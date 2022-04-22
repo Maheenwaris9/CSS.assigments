@@ -4,8 +4,7 @@
     width: 100%;
 }
 .all{
-    /*background-color: #B20600;*/
-    background-color: #CE49BF;
+    background-color: #37013b;
 }
 /*navbar*/
 .navbar-nav {
@@ -37,3 +36,7 @@
     transform: scale(1.1);
     box-shadow: 1px 2px 10px black ;
 }
+
+.brdr {
+    width: auto;
+  }
