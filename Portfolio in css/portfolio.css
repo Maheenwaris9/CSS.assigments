@@ -15,6 +15,9 @@
     margin-left: 10%;
     margin-top: 1%;
 }
+.nav h5{
+    margin-top: 1.5%;
+}
 .navicon{
     font-size: larger;
     margin-left: 2%;
@@ -31,4 +34,41 @@
     margin-top: 20%;
     margin-left: 10%;
     margin-right: 5%;
+}
+/* body */
+.body{
+    display: flex;
+    justify-content: space-between;
+    background-color: #290c06;
+    color: #FFE4DE;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+}
+.bdy{
+    background-color: transparent;
+}
+/* list */
+.list{
+    background-color: #290c06;
+    color: white;
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 2%;
+}
+.listA{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;    
+}
+/* footer */
+.foot{
+    background-color: #30130D;
+    color:#FFE4DE;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
 }
