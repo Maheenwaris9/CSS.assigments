@@ -13,6 +13,13 @@
 </head>
 <body>
     <style>
+        .one{
+           margin-left: 20px;
+           color: #333333;
+        }
+        .one:hover{
+            color: #c7a17a;
+        }
         .about{
             font-family: sans-serif;        
         }
@@ -23,16 +30,86 @@
             border: 1px solid rgb(241, 234, 234);
         }
         .footer{
-        font-family: sans-serif;
-        font-size: medium;
-        background-image: url("foot.jpg");
-    }
-    .footer-li:hover{
-        color:#c7a17a;
-        cursor: pointer;
-        
-    }
+            font-family: sans-serif;
+            font-size: medium;
+            background-image: url("foot.jpg");
+        }
+        .footer-li:hover{
+            color:#c7a17a;
+            cursor: pointer;
+        }
     </style>
+<!-- Navbar -->
+<section>
+    <nav>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid p-1">
+              <a class="navbar-brand fs-1 col-md-2 ms-5 mb-3   fw-bold text-dark" href="#"><img src="assests3/image1.jpeg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse me-5  col-md-6 " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-4 mr-5 text-dark one ">
+                    <li class="nav-item fs-5  text-dark ">
+                        <a class="nav-link scrollto one   active list text-dark" href=""  >
+                            Home
+                        </a>
+                    </li>
+    
+                    <li class="nav-item text-dark fs-5">
+                        <a class="nav-link scrollto one  active text-dark " href=""   >
+                        Shop
+                        </a>
+                    </li>
+    
+                    <li class="nav-item text-dark fs-5">
+                        <a class="nav-link  active one  text-dark" href="" >
+                       Product
+                        </a>
+                    </li>
+    
+                    <li class="nav-item text-dark  fs-5">
+                        <a class="nav-link scrollto one  active text-dark " href=""   >
+                      Pages
+                        </a>
+                    </li>
+                    <li class="nav-item text-dark fs-5">
+                        <a class="nav-link scrollto one  active text-dark " href=""   >
+                      Blog
+                        </a>
+                    </li>
+                    <li class="nav-item text-dark  fs-5">
+                        <a class="nav-link scrollto one  active text-dark " href=""   >
+                      Our Menus
+                        </a>
+                    </li>
+                </ul>
+              </div>
+              <div class="col-md-3 ">
+                <ul class="navbar-nav  text-dark">
+                    <li class="nav-item fs-5  text-dark ">
+                        <a class="nav-link scrollto  active list text-dark" href=""  >
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item fs-5  text-dark ">
+                        <a class="nav-link scrollto one active list text-dark" href=""  >
+                            <i class="fa-solid fa-cart-shopping"></i>$0.00
+                        </a>
+                    </li>
+                    <li class="nav-item fs-5  text-dark ">
+                        <a class="nav-link scrollto  one
+                         active list text-dark" href=""  >
+                            <i class="fa-solid fa-gear"></i>
+                        </a>
+                    </li>
+                </ul> 
+              </div>
+            </div>
+          </nav>
+    </nav>
+</section>
+
 <!-- About -->
     <div class="container about">
         <div class="row p-5">
