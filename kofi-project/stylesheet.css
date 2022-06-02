@@ -19,7 +19,7 @@
 .footer{
     font-family: sans-serif;
     font-size: medium;
-    background-color: #333333;
+    background-image: url('foot.jpg');
 }
 .footer-li:hover{
     color:#c7a17a;
@@ -39,39 +39,6 @@ background-size: cover;
 }
 
 
-.pic{
-    text-align: center;
-}
-.menu1{
-    height: 20vh;
-}
-.pic{
-    height: 80%;
-    /* right: -40px; */
-    /* margin-right: -50%; */
-}
-.menuheight{
-    height: 5vh;
-}
-.color{
-    background-color: #c7a17a;
-}
-.menu-li:hover{
-    color:#c7a17a;
-    cursor: pointer;
-}
-.bgimg{
-    background-image: url(images/coffee-beans.jpg);
-    background-repeat: no-repeat;
-    /* background-position: 100%; */
-    background-size: cover;
-}
-.footer{
-    font-family: sans-serif;
-    font-size: medium;
-    background-color: #333333;
-}
-.footer-li:hover{
-    color:#c7a17a;
-    cursor: pointer;
-}
+
+
+
