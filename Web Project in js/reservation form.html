@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styling.css">
-    <title>About Me </title>
+    <title> Reservation Form</title>
 </head>
 <body>
 
@@ -58,55 +60,46 @@
 
 <!-- start -->
 <div class="start">
-    <b class="strt">HOME/ABOUT ME</b>
+    <b class="strt">HOME/Reservation Form</b>
 </div>
-
-<!-- About me -->
-<div class="container">
-    <div class="row mt-5">
+<br><br>
+    
+<!-- reservation form -->
+<div class="container p-4" style="background-color:#f4f0f0 ;">
+    <center><h1 class="pt-5"><b>RESERVE YOUR TABLE</b></h1></center>
+    <br>
+    <div class="row ms-4 me-4">
         <div class="col-md-6">
-            <img src="abtm1.jpg" >
+            <input type="text" placeholder="Enter Your Name" class="p-3 form-control btn-outline-dark">
         </div>
         <div class="col-md-6">
-            <h1>RASALINA DE WILLAMSON</h1>
-            <p>Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid untlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. m, quis nostr exercitation ullamco</p>
-            <p class="abtm-info p-3"><b>PERSONAL INFO:</b>Founder & Co</p>
-            <p class="abtm-info p-3"><b>EXPERIENCE:</b> 12 Years of Experience</p>
-            <p class="abtm-info p-3"><b>EMAIL:</b> Israfilsupol836@Email.com</p>
-            <p class="abtm-info p-3"><b>PHONE:</b> 01869018907 - 01815065236</p>
+            <input type="number" placeholder="Enter Your Number" class="p-3 form-control btn-outline-dark">
         </div>
     </div>
+    <br>
+    <div class="row ms-4 me-4">
+        <div class="col-md-6">
+            <input type="text" placeholder="State Number" class="p-3 form-control btn-outline-dark">
+        </div>
+        <div class="col-md-6">
+            <input type="number" placeholder="mm/dd/yyyy" class="p-3 form-control btn-outline-dark">
+        </div>
+    </div>
+    <br>
+    <div class="row ms-4 me-4">
+        <div class="col-md-6">
+            <input type="text" placeholder="--:--" class="p-3 form-control btn-outline-dark">
+        </div>
+        <div class="col-md-6">
+            <input type="text" placeholder="Enter Your Email" class="p-3 form-control btn-outline-dark">
+        </div>
+    </div>
+    <br><br>
+    <center><button class="btn btn-outline-dark ms-5 p-2 navbar-btn" type="submit">Submit Your Request</button></center>
+    <br><br>
+    <img src="blog1.jpg" width="100%" height="100%" class="reserve1">
 </div>
-<br><br><br>
-<div class="container abtm1 pt-5">
-    <div class="row">
-        <div class="col-md-12">
-            <center><h1>CONTACT ME</h1></center>
-
-        </div>
-    </div>
-    <div class="row">
-        <div class="mb-3 d-flex">
-            <input type="name" class="form-control btn-outline-light p-3" id="exampleFormControlInput1" placeholder="Your Name:">
-            <input type="email" class="form-control btn-outline-light ms-2 p-3" id="exampleFormControlInput1" placeholder="Your Email:">
-        </div>
-        <div class="mb-3">
-            <input type="email" class="form-control btn-outline-light p-3" id="exampleFormControlInput1" placeholder="Enter Your Subject:">
-        </div>
-        <div class="mb-3">
-            <textarea class="form-control btn-outline-light p-3" id="exampleFormControlTextarea1" placeholder="Your Massage:" rows="3"></textarea>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <center>
-                <button type="button" class="btn btn-cntct p-2">Send Massage</button>
-            </center>
-        </div>
-        <br><br><br><br><br>
-    </div>
-</div>
-<br><br><br>
+<br><br>
 
 <!-- footer -->
 <div class="container-fluid foot p-5">

@@ -7,18 +7,16 @@
 .hov a:hover{   
     background-color: #c7a17a;
     border-radius: 10%;
-    transition:0.5s;
 }
 .nav-icon{
     font-size: x-large;
     color: white;
-    padding-left: 20%;
+    padding-left: 13%;
 }
 .nav-icon i:hover{
     background-color: #c7a17a;
     color: white;
     border-radius: 10%;
-    transition: 0.5s;
 }
 .navbar-btn a{
     text-decoration: none;
@@ -42,7 +40,7 @@
     justify-content: center;
     padding-top: 10%;
     font-size: 60px;
-    font-family:monospace, sans-serif;
+    font-style: italic;
     color: white;
 }
 
@@ -166,13 +164,46 @@
     color: white;
 }
 
+/* menu */
+.menu1{
+    background-color:#f0ecec;
+    padding: 1%;
+    padding-right: 2%;
+}
+.menu1 p{
+    color: #8d877f;
+}
+.menu1 h1{
+    color: #c7a17a;
+    font-size: 50px;
+}
+.menu1 b:hover{
+    color: #c7a17a;
+}
+.menu1 img:hover{
+    padding: 3%;
+    opacity: 0.7;
+}
+
+/* resrevation from */
+.reserve1{
+    border: 5px solid black;
+    border-radius: 8px;
+}
+.reserve1:hover{
+    border-style: double;
+    transition: 10s;
+    opacity: 0.7;
+}
+
+
 /* footer */
 .foot{
-    /* background-image: url("img2.jpg"); */
+    background-image: url("back.webp");
     height: 100%;
     width: 100%;
     background-size: cover;
-    background-color: black;
+    /* background-color: black; */
     color: white;
     padding: 1%;
     font-family: "Roboto", sans-serif;;
